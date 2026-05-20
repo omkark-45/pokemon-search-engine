@@ -52,6 +52,7 @@ PokeAPI (External API)
 - HTML5
 - CSS3
 - JavaScript (ES6)
+- 
 
 #🚀 How to Run Project
 
@@ -59,11 +60,13 @@ PokeAPI (External API)
 git clone https://github.com/omkark-45/pokemon-search-engine.git
 cd pokemon-search-engine
 
+
 2️⃣ Backend Setup
 cd backend/pokemonapi
 mvn spring-boot:run
 Backend runs on:
 http://localhost:8080
+
 
 3️⃣ Frontend Setup
 cd frontend
@@ -77,10 +80,6 @@ http://localhost:3000
 Start backend first (port 8080)
 Then start frontend (port 3000)
 Ensure both are running together
-👨‍💻 Author
-
-Omkar Khose
-Full Stack Java Developer (Spring Boot + React)
 
 ---
 

@@ -53,33 +53,6 @@ PokeAPI (External API)
 - CSS3
 - JavaScript (ES6)
 
----
-
-# 📡 API Endpoint
-
-GET /api/pokemon/{name}
-
-Example:
-http://localhost:8080/api/pokemon/pikachu
-
----
-
-# ❌ Error Handling
-
-- Invalid Pokémon name handled properly  
-- Global exception handler implemented  
-- Returns clean JSON error response  
-
-Example:
-```json
-{
-  "message": "Pokemon not found: xyz",
-  "status": "ERROR",
-  "timestamp": "2026-05-20T10:30:00"
-}
-
-
-
 #🚀 How to Run Project
 
 1️⃣ Clone Repository
@@ -108,3 +81,31 @@ Ensure both are running together
 
 Omkar Khose
 Full Stack Java Developer (Spring Boot + React)
+
+---
+
+# 📡 API Endpoint
+
+GET /api/pokemon/{name}
+
+Example:
+http://localhost:8080/api/pokemon/pikachu
+
+---
+
+# ❌ Error Handling
+
+- Invalid Pokémon name handled properly  
+- Global exception handler implemented  
+- Returns clean JSON error response  
+
+Example:
+```json
+{
+  "message": "Pokemon not found: xyz",
+  "status": "ERROR",
+  "timestamp": "2026-05-20T10:30:00"
+}
+
+
+
